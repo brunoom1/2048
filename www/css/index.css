@@ -1,0 +1,36 @@
+@-webkit-keyframes points{
+    from{
+        -webkit-transform: scale(20);
+    },
+    to{
+        -webkit-transform: scale(100);
+    }
+}
+
+
+body{
+    font-family: "Sans";    
+}
+
+#game{
+    width: 280px;
+    margin: 20px auto;    
+    margin-bottom: 0px;
+}
+
+
+#max{
+    float: right;
+    background-color: #fa8800;
+    padding: 26px;
+    color: white;
+    font-weight: bolder;
+}
+
+
+
+#game canvas{
+    margin-top: 10px;
+    width: 100%;
+    background-color: #fff;
+}
